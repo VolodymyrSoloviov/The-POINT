@@ -1,0 +1,22 @@
+//layout vars
+$container-width: 940px;
+$footer-height: 50px;
+
+//colors
+
+//layout
+@import "layout/normalize";
+@import "layout/adjustment";
+@import "layout/fonts";
+
+//sections
+@import "sections/footer";
+@import "sections/header";
+@import "sections/main";
+@import "sections/aside";
+
+// media
+@import "media/desktop";
+@import "media/laptop";
+@import "media/tablets";
+@import "media/phones";
