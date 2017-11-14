@@ -1,8 +1,15 @@
 //layout vars
-$container-width: 940px;
-$footer-height: 50px;
+$container-width: 960px;
+$footer-height: 435px;
 
 //colors
+$white-color: #fff;
+$light-gray-color: #999;
+$gray-color: #4a4a4a;
+$dark-gray-color: #333;
+$light-red-color: #d54346;
+$red-color: #631618;
+$dark-red-color: #871f21;
 
 //layout
 @import "layout/normalize";
