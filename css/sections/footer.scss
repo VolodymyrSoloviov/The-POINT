@@ -1,0 +1,116 @@
+.footer {
+	background-color: $light-red-color;
+}
+
+.footer-main {
+	border-top: 5px solid $dark-red-color;
+	padding-top: 30px;
+	//border-bottom: 1px solid #b7282c;
+}
+
+//**footer-information**
+
+.footer-information {
+	width: 31.25%;
+	float: left;
+	color: $white-color;
+}
+
+.footer-about {
+	height: 140px;
+	overflow: hidden;
+}
+
+.footer__title {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: $white-color;
+}
+
+.footer-about__text {
+	margin-top: 15px;
+	max-height: 80px;
+	overflow: hidden;
+	line-height: 1.6;
+}
+
+.footer-about__button,
+.footer-blog__button {
+	margin-top: 10px;
+
+}
+
+.footer-about__link,
+.footer-blog__link {
+	text-decoration: none;
+	color: $red-color;
+
+	&:hover {
+		color: #000;
+		font-weight: bold;
+	}
+}
+
+.footer-blog {
+	margin-top: 30px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.footer-blog__title {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.footer-blog__date {
+	font-size: 10px;
+}
+
+.footer-blog__text {
+	line-height: 1.6;
+	max-height: 60px;
+	overflow: hidden;
+}
+
+//** footer-links **
+
+.footer-links {
+	float: left;
+	width: 31.25%;
+	margin-left: 3.125%;
+}
+
+.footer-links__list {
+	margin-top: 15px;
+}
+
+.footer-links__item {
+	display: block;
+	border-bottom: 1px solid #d85255;
+	padding: 5px 0;
+
+	&:first-child {
+		padding-top: 0;
+	}
+}
+
+.footer-links__link {
+	text-decoration: none;
+	color: $red-color;
+	font-size: 12px;
+	display: block;
+}
+
+.footer-links__mark {
+	margin-right: 5px;
+	color: $white-color;
+}
+
+//** footer-form **
+
+.footer-form {
+	float: left;
+	width: 31.25%;
+	margin-left: 3.125%;
+}
+
