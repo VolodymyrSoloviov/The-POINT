@@ -1,3 +1,31 @@
 @media screen and (max-width: 992px) {
+	.container {
+		width: 730px;
+	}
 
+	.navigation, .socials {
+		float: none;
+		width: 	100%;
+	}
+
+	.navigation {
+		text-align: center;
+	}
+
+	.socials {
+		text-align: center;
+		margin-top: 10px;
+	}
+	
+	.profile__item {
+		width: 	calc(100% / 3 - 20px);
+	}
+
+	.latest-works__left, .latest-works__right {
+		width: 50%;
+	}
+
+	.project-work, .works {
+		text-align: center;
+	}
 }

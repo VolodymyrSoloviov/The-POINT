@@ -1,3 +1,89 @@
 @media screen and (max-width: 480px) {
+	.container {
+		width: 95%;
+	}
+
+	.header {
+		margin-bottom: 20px;
+	}
+
+	.header__left {
+		width: 42%;
+	}
+
+	.header__right {
+		width: 55%;
+	}
+
+	.logo {
+    margin-top: 30px;
+}
 	
+	.search {
+		margin-top: 37px;
+	}
+
+	.search__input {
+		width: 100px;
+	}
+	
+	.aside {
+		padding-top: 0;
+	}
+	
+	.aside__item {
+		margin-top: 5px;
+	}
+
+	.team {
+	    padding-bottom: 25px;
+	}
+
+	.team__title {
+		font-size: 22px;
+	}
+
+	.team__text {
+		font-size: 17px;
+	}
+	
+	.profile__list {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.profile__item {
+		width: 96%;
+		margin-left: 0;
+	}
+
+	.project-work__title {
+		font-size: 35px;
+		margin-bottom: 15px;
+	}
+	
+	.works__list {
+		text-align: center;
+	}
+
+	.works__item {
+		width: 96%;
+	}
+
+	.latest-works {
+    	margin: 25px 0;
+	}
+
+	.footer-links {
+		display: none;
+	}
+
+	.footer-form {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.copyright {
+		padding-top: 28px;
+	}
 }

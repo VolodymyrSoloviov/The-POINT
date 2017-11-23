@@ -1,5 +1,5 @@
 .slider {
-	height: 530px;
+	max-height: 530px;
 }
 
 #slider-wrapper {
@@ -18,7 +18,7 @@
 }
 
 .page {
-	height: 500px;
+	max-height: 530px;
 	float: left;
 	width: 20%;
 	position: relative;
@@ -28,7 +28,7 @@
 .page__caption {
 	text-align: center;
 	position: absolute;
-	bottom: 0px;
+	bottom: 5px;
 	width: 100%;
 	height: 40px;
 	line-height: 40px;
@@ -46,6 +46,7 @@
 .page__link {
 	text-decoration: none;
 	color: #bfbfbf;
+
 
 	&:hover {
 		color: #ee802f;
